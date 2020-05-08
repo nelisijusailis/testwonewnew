@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
+</head>
+<body>
+     
+<header>
+    
+      
+      <nav class="main-nav">
+      <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+      </ul>
+      </nav>
+
+<!-- </header> -->
+      <nav role="navigation">
+            <div id="menuToggle">
+              <!--
+              A fake / hidden checkbox is used as click reciever,
+              so you can use the :checked selector on it.
+              -->
+
+              <input type="checkbox" />
+              
+              <!--
+              Some spans to act as a hamburger.
+              
+              -->
+              <span></span>
+              <span></span>
+              <span></span>
+
+              <!--
+              Too bad the menu has to be inside of the button
+              but hey, it's pure CSS magic.
+              -->
+              <ul id="menu">
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Info</li></a>
+                <a href="#"><li>Contact</li></a>
+            
+              </ul>
+            </div>
+            <a class="navbar-brand" href="index.html">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/logo_copy.svg" alt="CompleteUI Logo" class="logo">
+            </a>
+          </nav>
+      
+</header>
+
+<div class="hero">
+      <div class="container">
+
+            <div class="hero__text">
+
+                  <h1>Pigiausiai dezinfekuosime Jūsų patalpas nuo koronaviruso</h1>
+
+                  <p>Licencijuota ir profesionali komanda yra pasiruošusi Jums padėti!</p>
+                  <a href="#" class="btn">Contact me</a>
+             
+  
+            </div>
+      </div>
+</div>
+      <!-- <div class="container"> 
+      <div class="row"> -->
+
+<div class="col">
+<h2>cheap</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur necessitatibus beatae tempore quas voluptatum nemo quidem, debitis laborum!</p>
+</div>
+<div class="col">
+<h2>Quick</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur necessitatibus beatae tempore quas voluptatum nemo quidem, debitis laborum!</p>
+</div>
+<div class="col">
+<h2>affordable</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur necessitatibus beatae tempore quas voluptatum nemo quidem, debitis laborum!</p>
+</div>
+</div>   
+</div>
+            
+      <footer>
+
+            
+            <ul>
+                  <li><a href="" class="social github">Github</a></li>
+            </ul>
+      </footer>
+
+      <script src="app.js"></script>
+      <script src="https://cdn.polyfill.io/v3/polyfill.js?features=default,NodeList.prototype.forEach,Array.prototype.includes"></script>
+</body>
+</html>
