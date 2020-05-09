@@ -10,9 +10,12 @@
 </head>
 <body>
      
+      <div id="wrapper" class="wrapper">
+            
 <header>
     
       
+
       <nav class="main-nav">
       <ul>
             <li><a href="#">Home</a></li>
@@ -55,8 +58,8 @@
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/logo_copy.svg" alt="CompleteUI Logo" class="logo">
             </a>
           </nav>
-      
-</header>
+      </header>
+
 
 <div class="hero">
       <div class="container">
@@ -91,14 +94,47 @@
 </div>
             
       <footer>
+                  <div class="form-container">
+                              <form id="form" class="form">
+                                <h2 class="h2">Contact me</h2>
+                                <div class="form-control">
+                                  <!-- <label for="username">Username</label>
+                                  <input type="text" id="username" placeholder="Enter username" />
+                                  <small>Error message</small> -->
+                                </div>
+                                <div class="form-control">
+                                  <label for="email">Email</label>
+                                  <input type="text" id="email" placeholder="Email" />
+                                  <small>Error message</small>
+                                  <label for="name">Text Input:</label>
+                                    <input type="text" name="name" id="name" value="" placeholder="Name" tabindex="1" cols="40" rows="8">
+          
+                                          <!-- <textarea cols="40" rows="8" name="textarea" id="textarea"></textarea> -->
+                                     
+                                <!-- </div>
+                                <div class="form-control">
+                                  <label for="password">Password</label>
+                                  <input type="password" id="password" placeholder="Enter password" />
+                                  <small>Error message</small>
+                                </div>
+                                <div class="form-control">
+                                  <label for="password2">Confirm Password</label>
+                                  <input
+                                    type="password"
+                                    id="password2"
+                                    placeholder="Enter password again"
+                                  /> -->
+                                  <small>Error message</small>
+                                </div>
+                                <button type="submit">Submit</button>
+                              </form>
+                            </div>
 
-            
             <ul>
                   <li><a href="" class="social github">Github</a></li>
             </ul>
       </footer>
 
-      <script src="app.js"></script>
-      <script src="https://cdn.polyfill.io/v3/polyfill.js?features=default,NodeList.prototype.forEach,Array.prototype.includes"></script>
+</div>
 </body>
 </html>
